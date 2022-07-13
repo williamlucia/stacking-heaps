@@ -1,0 +1,89 @@
+baseURL: 'https://williamlucia.github.io/stacking-heaps/'
+languageCode: en-us
+title: Stacking Heaps
+paginate: 5
+theme: "PaperMod"
+enableEmoji: true
+canonifyURLs: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        taxonomies:
+          category: categories
+          tag: tags
+          series: series
+        menu:
+            main:
+                - name: Archive
+                  url: archives
+                  weight: 5
+                - name: Search
+                  url: search/
+                  weight: 10
+                - name: Tags
+                  url: tags/
+                  weight: 10
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
+params:
+  env: development # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Stacking Heaps
+  description: "My Personal Blog"
+  keywords: [Blog, Data Engineering]
+  author: William Lucia
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  ShowToc: true
+  TocOpen: false
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: Welcome to my blog
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/williamlucia"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/williamlucia/"
+    - name: Rss
+      url: "index.xml" 
+ 
+  fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
