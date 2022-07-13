@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Stacking Heaps</title>
+    <link>https://williamlucia.github.io/stacking-heaps/posts/</link>
+    <description>Recent content in Posts on Stacking Heaps</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Jul 2022 10:13:33 +0200</lastBuildDate><atom:link href="https://williamlucia.github.io/stacking-heaps/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome</title>
+      <link>https://williamlucia.github.io/stacking-heaps/posts/welcome/</link>
+      <pubDate>Wed, 13 Jul 2022 10:13:33 +0200</pubDate>
+      
+      <guid>https://williamlucia.github.io/stacking-heaps/posts/welcome/</guid>
+      <description>Hi 👋,
+Welcome to Stacking Heaps, my personal blog.
+I am William, an Italian guy fascinated by Computer Science. My main expertise is around data engineering at scale, so this blog will be pretty technical 🤓
+I am also in love with algorithms and data structures so some content will touch those topics as well.
+Hope you will enjoy reading my contents. Please feel free to suggest improvements, corrections or any new content that you would like to be covered!</description>
+    </item>
+    
+  </channel>
+</rss>
