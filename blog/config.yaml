@@ -71,6 +71,8 @@ params:
       url: "https://github.com/williamlucia"
     - name: linkedin
       url: "https://www.linkedin.com/in/williamlucia/"
+    - name: twitter
+      url: "https://twitter.com/WilliamLucia12"
     - name: Rss
       url: "index.xml" 
  
